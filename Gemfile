@@ -40,3 +40,9 @@ gem 'spring',        group: :development
 
 # Use postgresql
 gem 'pg'
+
+group :test do
+ gem 'factory_girl_rails'
+ gem 'rspec-rails'
+ gem 'json-schema'
+end

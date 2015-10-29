@@ -53,4 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  #Expense Categories route
+  resources :expense_categories
+  #get '/expense_categories' => 'ExpenseCategories#index'
 end

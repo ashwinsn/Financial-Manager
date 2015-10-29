@@ -1,0 +1,9 @@
+<!--
+  When you put code inside <% %> erb only evaluates the code whereas when you put <%= %>, it evaluates it and prints it.
+-->
+
+<h1>Expense Categories</h1>
+
+<% @expense_categories.each do |category|%>
+<%=category.name  %> </br>
+<% end %>
